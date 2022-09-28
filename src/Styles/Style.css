@@ -1,0 +1,291 @@
+/* -----------------------Common Style Here---------------------- */
+.Sell-Your-NFT {
+  position: relative;
+  background: #1c2025;
+
+  min-height: 441px;
+  padding: 20px 0;
+}
+
+.today-picks {
+  position: relative;
+  background: #1e2329;
+}
+
+.today-picks::before {
+  content: "";
+  position: absolute;
+  width: 8%;
+  height: 1074px;
+  right: 0px;
+  top: 300px;
+  background: rgba(49, 214, 184, 1);
+  filter: blur(750px);
+}
+
+/* -----------------------Header Section Style Here---------------------- */
+.header:after {
+  content: "";
+  position: absolute;
+  width: 90%;
+  left: 0px;
+  top: 0px;
+  filter: blur(750px);
+  background: #3c84f7;
+}
+.header::before {
+  content: "";
+  position: absolute;
+  width: 10%;
+  right: 0px;
+  top: 0px;
+  background: #f6d62e;
+  filter: blur(750px);
+}
+
+.header form {
+  margin: 0 96px;
+}
+.header form.search-box {
+  border: none;
+  padding: 0;
+}
+.header input.search-box::placeholder {
+  color: #575757;
+  padding: 0 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  font-family: "Poppins";
+}
+
+.header input.search-box {
+  width: 270px;
+  height: 48px;
+  border: 2px solid #43444f;
+  border-radius: 300px;
+  padding: 12px 4px 13px 40px;
+  background: url("../Assets/Icons/search_icon.png") no-repeat 13px center
+    #1f2227;
+}
+.header input:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .header form {
+    margin-left: 134px;
+  }
+  .header input.search-box {
+    border: none;
+    background-position: right;
+    background-color: transparent;
+    padding: 12px 8px 15px 0px;
+    background-image: url("../Assets/Icons/search2.png");
+    width: 120px;
+    height: 48px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .header form {
+    margin: 0 17px;
+  }
+  .header input.search-box {
+    border: none;
+    background-position: right;
+    background-color: transparent;
+    padding: 12px 8px 15px 60px;
+    background-size: 25px;
+    background-image: url("../Assets/Icons/search3.png");
+    width: 20px;
+    height: 48px;
+  }
+}
+
+/* -----------------------Hero Section Style Here---------------------- */
+
+.hero {
+  position: relative;
+  min-height: 740px;
+}
+
+.hero-bg {
+  background-image: url(../Assets/images/hero_bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1614px;
+  min-height: 622px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero {
+    position: relative;
+    min-height: 300px;
+  }
+
+  .hero-bg {
+    background-image: url(../Assets/images/bg.png);
+    min-height: 550px;
+    opacity: 100;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .hero {
+    position: relative;
+    min-height: 394px;
+  }
+
+  .hero-bg {
+    background-image: url(../Assets/images/bg.png);
+    min-height: 394px;
+    opacity: 100;
+    background-repeat: no-repeat;
+    background-size: 766px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero {
+    position: relative;
+    min-height: 374px;
+  }
+  .hero-bg {
+    background-image: url(../Assets/images/bg.png);
+    min-height: 354px;
+    opacity: 100;
+    background-repeat: no-repeat;
+    background-size: 557px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .hero-bg {
+    background-image: none;
+  }
+  .bg-img {
+    background-image: url(../Assets/images/bg\(1\).png);
+    padding-top: 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 290px;
+    opacity: 100;
+    min-height: 340px;
+  }
+}
+
+/* -----------------------Popular Collection Section Style Here---------------------- */
+.Popular-Collections {
+  position: relative;
+  min-height: 587px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .Popular-Collections {
+    min-height: 880px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .Popular-Collections {
+    min-height: 1420px;
+  }
+}
+
+.popularCollection-box {
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 2px;
+}
+
+.popularCollection-box1 {
+  background-image: linear-gradient(rgba(76, 73, 189, 1), rgba(64, 107, 63, 1));
+}
+.popularCollection-box2 {
+  background-image: linear-gradient(rgba(193, 79, 79, 1), rgba(79, 90, 193, 1));
+}
+.popularCollection-box3 {
+  background-image: linear-gradient(
+    rgba(97, 182, 90, 1),
+    rgba(205, 138, 150, 1)
+  );
+}
+.popularCollection-box4 {
+  background-image: linear-gradient(
+    rgba(202, 76, 182, 1),
+    rgba(139, 131, 53, 1)
+  );
+}
+.popularCollection-card {
+  background: #1e2329;
+  padding: 16px;
+  border-radius: 15px;
+}
+
+/* -----------------------Footer Section Style Here---------------------- */
+.footer .subscribe-box:focus {
+  outline: none;
+}
+.footer .subscribe-box {
+  border: 2px solid #3e3e46;
+}
+
+/* -----------------------Live Auctions Section Style Here---------------------- */
+.today-picks-box {
+  border-radius: 15px;
+  background-image: linear-gradient(#3ce1f7, #e83cf7);
+  box-sizing: border-box;
+}
+.today-picks-card {
+  background-color: rgba(30, 35, 41, 1);
+}
+
+/* -----------------------Top SEllers-------------------------- */
+
+@media only screen and (max-width: 576px) {
+  .top-sellar-btn {
+    position: absolute;
+    bottom: 30px;
+    width: 328px;
+    height: 48px;
+    left: 16px;
+  }
+  .author-btn {
+    position: absolute;
+    bottom: 0px;
+    width: 328px;
+    height: 48px;
+    left: 20%;
+  }
+  .popular-collection-btn {
+    position: absolute;
+    bottom: 0;
+    width: 328px;
+    height: 48px;
+    left: 16px;
+  }
+  .today-piks-btn {
+    width: 328px;
+    height: 48px;
+  }
+}
+
+.icons-bg1 {
+  position: absolute;
+  height: 13px;
+  left: 1.44%;
+  right: 94.94%;
+  top: 5px;
+  background: #f6d62e;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.icons-bg2 {
+  position: absolute;
+  height: 17px;
+  left: 4.17%;
+  right: 91.11%;
+  top: 22px;
+  background: #3c84f7;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
